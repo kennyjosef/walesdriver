@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+
+}
+.logo h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    color: #222222;
+    
+}
+header{
+    width: 100%;
+    background-color: white;
+    position:fixed;
+    top: 0;
+    z-index: 1066;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-left: 69px;
+    background-color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: auto;
+    height: auto;
+    font-size: 18px;
+    list-style-type: none;
+    width: 50%;
+    
+}
+
+.menu li {
+    margin: 0;
+
+}
+ a{
+    text-decoration: none;
+}
+
+.navbar-toggle{
+    display: none;
+}
+.show{
+    display: none;
+}
+.close{
+    display: none;
+}
+@media screen and (max-width:786px) {
+    header{
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    #navbar{
+        display: block;
+        width: 100%;
+        justify-content: space-between; 
+        padding: 30px;
+        background-color: #200937;
+        height: auto;
+
+    }
+    .navbar-toggle{
+        display: block;
+    }
+    .show{
+        color: white;
+    }
+    .menu{
+        display: none;
+        list-style-type: none;
+        line-height: 80px;
+        width: auto;
+        height: 100vh;
+        font-size: 30px;
+         
+
+    }
+    .menu li {
+        text-align: center;
+        margin: 15px auto;
+    }
+    .menu li a{
+        text-decoration: none;
+        color: white;
+
+    }
+    .logo h3{
+        color: #ffffff;
+    }
+    .show{
+        display: block;
+    }
+    .dont_show{
+        display: none;
+    }
+    .close {
+        display: none;
+    }
+    .active{
+        display: block;
+    }
+    
+    .no_show{
+        display: none;
+    }
+    
+    .logo-inactive {
+        visibility: hidden;
+    }
+    
+    .close-times {
+        display: inline;
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 80px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .navbar-toggle {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .navbar-toggle img{
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    
+}

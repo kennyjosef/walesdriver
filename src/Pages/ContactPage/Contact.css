@@ -1,0 +1,273 @@
+
+.sectn{
+    background-image: url(../../Images/cBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_hero{
+    padding-top: 200px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+.contact_hero h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+.contact_hero p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF
+}
+
+.contact_form{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+
+.items1{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.items1 input{
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    border: 0.3px solid #663399;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.items1 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.items2{
+    width: 700px;
+    margin: auto;
+    padding-left:  20px ;
+}
+.items2 input{
+    width: 660px;
+    padding-left: 10px;
+    outline: none;
+    border: 0.3px solid #663399;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.items2 #companyName{
+    height: 50px;
+    margin-bottom: 24px;
+}
+.items2 #message{
+    height: 150px;
+    margin-bottom: 24px;
+}
+label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    color: #828282;
+    
+}
+.btn{
+    text-align: center;
+}
+form button{
+    width: 200px;
+    height: 60px;
+    background: #200937;
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+} 
+.control{
+    position: relative;
+    /* z-index: -1; */
+}
+
+/* error message */
+form small {
+    position: absolute;
+    bottom: -28PX; 
+    left: 0;
+    font-weight: 500;
+    /* visibility: visible; */
+
+}
+#badMessage3, #badMessage4{
+    bottom: 8px;
+}
+/* contact footer */
+.footers{
+    width: 100%;
+    background: #FCF9FF;
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: space-around;
+    padding-top:70px ;
+    padding-bottom: 100px;
+}
+.footers div a{
+    text-decoration: none;
+    color: black;
+}
+
+.footers div h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.footers div h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 16px;
+}
+.footers div p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    padding-bottom: 12px;
+}
+.footers_text p{
+    width: 154px;
+}
+.pink{
+    display: none;
+    height: 30px;
+    width: 100%;
+    background: #761C78;
+} 
+.facebook{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.facebook img{
+    cursor: pointer;
+}
+.facebook p {
+    font-size: 50px;
+    font-weight: 400;
+    border-radius: 100%;
+}
+@media screen and (max-width:768px) {
+    .contact_form{
+        width: 80%;
+    }
+    .contact_hero{
+        margin-top: 90px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contact_hero h3{
+        max-width: 100%;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .contact_form p{
+        max-width: 100%;
+        text-align: center;
+        line-height: 24px;
+    }
+    .items1{
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 0px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .items1 input{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    form small {
+        bottom: 0PX; 
+    }
+    .items2{
+        width: 100%;
+        padding-right: 20px;
+        margin-top: 0;
+    }
+    .items2 input{
+        width: 100%;
+        margin-top: 0px;
+    }
+    form button{
+        max-width: 100%;
+    }
+    .items2 #companyName{
+        margin-bottom: 20px;
+    }
+    .items2 #message{
+        margin-bottom: 20px;
+    }
+    .footers{
+        flex-direction: column;
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+    }
+    .footers div{
+        width: 100%;
+        padding:  0px 20px;
+        
+    }
+    .footers div h3{
+        text-align: center;
+
+    }
+    .footers div p{
+        text-align: center;
+        padding-bottom: 6px;
+
+    }
+    .footers_text p{
+        max-width: 200px;
+        margin: auto;
+    }
+    .facebook{
+        max-width: 200px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .period img{
+        width: 10px;
+    }
+    .pink{
+        display: block;
+    }
+   
+    
+}

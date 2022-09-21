@@ -1,0 +1,30 @@
+/* *{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    color: #222222;
+    font-family: 'Nunito';
+    font-style: normal;
+
+} */
+
+.logo{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.logo  a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}
+.head{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 1064 ;
+    background-color: #761C78;
+}
