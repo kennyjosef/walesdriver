@@ -25,8 +25,8 @@ import Logo22 from '../../Images/applePlay.png';
 import Logo23 from '../../Images/twiiter.png';
 import Logo24 from '../../Images/instagram.png';
 import Logo25 from '../../Images/facebook.png';
-import Nav from '../../Components/Navbar/Nav';
 import CardSecond from '../../Components/Cards/CardSecond';
+import NavbarMenu from '../../Components/NavbarMenu/NavbarMenu';
 
 const Home = () => {
     const title1 = 'Order a ride'
@@ -47,7 +47,7 @@ const Home = () => {
     ]
   return (
     <>
-    <Nav/>
+    <NavbarMenu/>
     <div className='hero' id='top'>
         <div className="hero_article">
             <h1>Irure consectetur occaecat nostrud do Lorem cillum.</h1>

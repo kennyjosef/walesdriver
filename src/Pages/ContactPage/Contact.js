@@ -3,7 +3,7 @@ import './Contact.css'
 import C1 from '../../Images/C1.png'
 import C2 from '../../Images/C2.png'
 import C3 from '../../Images/C3.png'
-import Nav from '../../Components/Navbar/Nav'
+import NavbarMenu from '../../Components/NavbarMenu/NavbarMenu'
 // import C4 from '../../Images/icons8-menu.svg'
 const Contact = () => {
 
@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div className='cont'>
       <section className='sectn'>
-        <Nav/>
+        <NavbarMenu/>
       <div class="contact_hero">
             <h3>Get In Touch</h3>
             <p>Tell us how we can help and we’ll get in touch shortly</p>
